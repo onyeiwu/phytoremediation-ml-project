@@ -97,12 +97,12 @@ Three regression models were trained and compared:
 
 ### Model Comparison
 
-| Model | R² Score | MAE | RMSE |
-|-------|----------|-----|------|
-| Linear Regression | — | — | — |
-|Decision Tree | — | — | — |
-| Random Forest | — | — | — |
-| **XGBoost** ✅ | **0.9361** | **101.23** | **150.40** |
+Model	CV Mean R²	CV STD	Test R²	MAE	RMSE	MSE
+0	XGBoost	0.6754	0.2586	0.9361	101.2310	150.4008	22620.3955
+1	Decision Tree	0.5590	0.2793	0.9156	126.5079	172.8249	29868.4459
+2	Random Forest	0.8097	0.0513	0.8659	129.1698	217.8024	47437.8907
+3	Linear Regression	0.5924	0.0884	0.7356	225.5348	305.8236	93528.0463
+
 
 ### 🏆 Best Model — XGBoost
 - Model : XGBoost
