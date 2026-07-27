@@ -157,3 +157,42 @@ Three regression models were trained and compared:
 ---
 
 ## 🛠️ Technologies Used
+Python 3.x
+Pandas Data manipulation
+NumPy Numerical computation
+Matplotlib Data visualization
+Seaborn Statistical visualization
+Scikit-learn Machine learning models
+XGBoost Gradient boosting model
+Joblib Model saving and loading
+Jupyter Interactive development
+
+---
+
+## 📁 Project Structure
+
+phytoremediation-ml-project/
+│
+├── Chemistry Dataset.ipynb # Main Jupyter Notebook
+├── best_xgboost_model.pkl # Saved best model
+├── phytoremediation_dataset.csv # Dataset
+├── images/ # Visualization screenshots
+│ ├── actual_vs_predicted.png
+│ ├── residual_plot.png
+│ └── feature_importance.png
+└── README.md # Project documentation
+
+---
+
+## 👨‍💻 Author
+
+**Onyeiwu Gabriel Chibuzor**
+University Project — Department of [Your Department]
+Supervised by: [Your Supervisor Name]
+
+---
+
+## 📜 License
+
+This project is submitted as an academic project.
+All rights reserved © 2026 Onyeiwu Gabriel Chibuzor
