@@ -78,6 +78,7 @@ Three regression models were trained and compared:
 | Model | Description |
 |-------|-------------|
 | **Linear Regression** | Simple baseline model |
+| **Decision Tree** | Ensemble of decision trees |
 | **Random Forest** | Ensemble of decision trees |
 | **XGBoost** | Gradient boosting — best performer |
 
@@ -104,3 +105,55 @@ Three regression models were trained and compared:
 | **XGBoost** ✅ | **0.9361** | **101.23** | **150.40** |
 
 ### 🏆 Best Model — XGBoost
+- Model : XGBoost
+- R² Score : 0.9361
+- MAE : 101.23 weeks
+- RMSE : 150.40 weeks
+- MSE : 22620.39
+
+> The XGBoost model explained **93.61%** of the variance in 
+> Remediation Time — meaning it can predict with high accuracy 
+> how long a plant will take to clean contaminated soil.
+
+---
+
+## 📈 Visualizations
+
+### Actual vs Predicted RT
+![Actual vs Predicted](images/actual_vs_predicted.png)
+
+### Residual Plot
+![Residual Plot](images/residual_plot.png)
+
+### Feature Importance
+![Feature Importance](images/feature_importance.png)
+
+---
+
+## 💡 Key Findings
+
+- **Helianthus annuus** (Sunflower) showed the fastest remediation 
+  time across most heavy metals
+- **Cadmium (Cd)** and **Zinc (Zn)** were extracted more efficiently 
+  than **Lead (Pb)**
+- **Plant biomass (Yield)** and **week number** were the most 
+  important predictors of RT
+- Remediation time decreases significantly as weeks progress — 
+  showing plants become more effective over time
+
+---
+
+## ✅ Recommendations
+
+1. **Use Helianthus annuus** for heavy metal contaminated sites 
+   requiring fast cleanup
+2. **Monitor plants at 2-week intervals** as the model shows 
+   significant improvement at each time point
+3. **Combine multiple plant species** for sites contaminated with 
+   multiple metals simultaneously
+4. **Use the XGBoost model** to estimate cleanup timelines before 
+   starting remediation projects
+
+---
+
+## 🛠️ Technologies Used
